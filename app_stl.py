@@ -21,8 +21,8 @@ MINSIZE = 20
 THRESHOLD = [0.6, 0.7, 0.7]
 FACTOR = 0.709
 INPUT_IMAGE_SIZE = 160
-CLASSIFIER_PATH = 'Models/facemodel.pkl'
-FACENET_MODEL_PATH = 'Models/20180402-114759.pb'
+CLASSIFIER_PATH = 'facemodel.pkl'
+FACENET_MODEL_PATH = '20180402-114759.pb'
 
 # Load Classifier Model
 with open(CLASSIFIER_PATH, 'rb') as file:
